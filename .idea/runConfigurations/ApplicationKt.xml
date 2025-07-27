@@ -1,5 +1,8 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="ApplicationKt" type="JetRunConfigurationType" nameIsGenerated="true">
+    <envs>
+      <env name="ENABLE_NAMING_VALIDATION" value="true" />
+    </envs>
     <option name="MAIN_CLASS_NAME" value="org.example.ApplicationKt" />
     <module name="flyway-plugin-issue-demo.main" />
     <shortenClasspath name="NONE" />

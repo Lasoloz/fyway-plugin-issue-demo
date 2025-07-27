@@ -1,5 +1,8 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="JavaApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+    <envs>
+      <env name="ENABLE_NAMING_VALIDATION" value="true" />
+    </envs>
     <option name="MAIN_CLASS_NAME" value="org.example.JavaApplication" />
     <module name="flyway-plugin-issue-demo.main" />
     <extension name="coverage">
