@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres
+    restart: always
+    shm_size: 128mb
+    ports:
+      - "6999:5432"
+    environment:
+      POSTGRES_USER: localdev
+      POSTGRES_HOST_AUTH_METHOD: trust
