@@ -17,9 +17,9 @@
     2. Running the application from IntelliJ (the `ApplicationKt` or the `JavaApplication` run configuration) applies
        all the migrations properly creating the tables defined in the migration files.
 
-# Fix to the issue:
+# Fix to the issue
 
-The `shadowJar` task has a method called `mergeServiceFiles`, which need to be applied for a proper űber-jar build in
+The `shadowJar` task has a method called `mergeServiceFiles`, which needs to be applied for a proper űber-jar build in
 Gradle:
 
 ```kotlin
