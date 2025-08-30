@@ -1,5 +1,3 @@
-import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
-
 plugins {
     kotlin("jvm") version "2.1.20"
     // Using the ktor plugin, as in my use case that provides the `buildFatJar` task through the `application {}` config
@@ -44,8 +42,6 @@ kotlin {
 }
 
 // FIX: merging service files fixes the lookup issue:
-//tasks {
-//    named<ShadowJar>("shadowJar") {
-//        mergeServiceFiles()
-//    }
+//tasks.shadowJar {
+//    mergeServiceFiles()
 //}

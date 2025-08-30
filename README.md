@@ -23,9 +23,7 @@ The `shadowJar` task has a method called `mergeServiceFiles`, which needs to be 
 Gradle:
 
 ```kotlin
-tasks {
-    named<ShadowJar>("shadowJar") {
-        mergeServiceFiles()
-    }
+tasks.shadowJar {
+    mergeServiceFiles()
 }
 ```
